@@ -10,4 +10,4 @@ RUN chmod +x /app/speedtest
 WORKDIR /app
 USER app
 
-CMD /app/serve.py
+CMD ["/app/serve.py"]
